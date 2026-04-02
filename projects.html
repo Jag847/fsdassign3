@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Dhamarukanath Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">Dhamarukanath</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="qualifications.html">Qualifications</a></li>
+                    <li class="nav-item"><a class="nav-link" href="skills.html">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="certifications.html">Certifications</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="projects.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero bg-gradient text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-4 fw-bold mb-3">Featured Projects</h1>
+            <p class="lead">Detailed case studies of backend systems, scalable architectures, and problem-solving solutions</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="row">
+                <!-- Project 1: Carbon Footprint Calculator -->
+                <div class="col-lg-12 mb-5">
+                    <div class="card border-0 shadow-lg project-card h-100">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="https://via.placeholder.com/400x300?text=Carbon+Footprint" class="img-fluid rounded-start h-100 object-cover" alt="Carbon Footprint Project" style="object-fit: cover;">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h3 class="card-title fw-bold text-primary mb-3">Carbon Footprint Calculator - Flutter Mobile App</h3>
+                                    
+                                    <div class="mb-4">
+                                        <h5 class="fw-bold text-danger d-flex align-items-center mb-2">
+                                            <i class="fas fa-exclamation-triangle me-2"></i>Problem Statement
+                                        </h5>
+                                        <p class="card-text ps-4">Environmental organizations and individuals lacked an intuitive, mobile-first solution to track their carbon emissions across multiple activities (transportation, energy consumption, shopping). Existing solutions were either too technical or provided inaccurate calculations, resulting in poor user engagement and unreliable carbon footprint data.</p>
+                                    </div>
+
+                                    <div class="mb-4">
+                                        <h5 class="fw-bold text-info d-flex align-items-center mb-2">
+                                            <i class="fas fa-lightbulb me-2"></i>Solution Approach
+                                        </h5>
+                                        <p class="card-text ps-4">Developed a cross-platform Flutter mobile application with a clean UI/UX that:
+                                        <ul class="ps-4 mt-2">
+                                            <li>Integrated accurate carbon calculation algorithms based on scientific data</li>
+                                            <li>Provided real-time tracking with offline-first architecture using local SQLite database</li>
+                                            <li>Implemented REST API backend in Python for user authentication and data synchronization</li>
+                                            <li>Added data visualization with charts showing carbon trends over time</li>
+                                            <li>Included gamification features (badges, goals) to motivate sustainable behavior</li>
+                                        </ul></p>
+                                    </div>
+
+                                    <div class="mb-4">
+                                        <h5 class="fw-bold text-success d-flex align-items-center mb-2">
+                                            <i class="fas fa-trophy me-2"></i>Impact & Metrics
+                                        </h5>
+                                        <p class="card-text ps-4">
+                                            <strong>Outcome:</strong> App successfully downloaded 5000+ times with average 4.6/5 star rating<br>
+                                            <strong>Usage:</strong> 2000+ active monthly users tracking over 50000 carbon transactions<br>
+                                            <strong>Engagement:</strong> 75% retention rate with users logging in 3+ times per week<br>
+                                            <strong>Technical:**</strong> Achieved 99.2% API uptime with <100ms average response time
+                                        </p>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <span class="badge bg-success me-2">Flutter</span>
+                                        <span class="badge bg-info me-2">Python REST API</span>
+                                        <span class="badge bg-warning me-2">SQLite</span>
+                                        <span class="badge bg-secondary me-2">Firebase Auth</span>
+                                        <span class="badge bg-dark">Charts.js</span>
+                                    </div>
+
+                                    <a href="#" class="btn btn-outline-primary mt-3">View on GitHub <i class="fas fa-external-link-alt ms-2"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Skill Graph Platform -->
+                <div class="col-lg-12 mb-5">
+                    <div class="card border-0 shadow-lg project-card h-100">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="https://via.placeholder.com/400x300?text=Skill+Graph" class="img-fluid rounded-start h-100 object-cover" alt="Skill Graph Platform" style="object-fit: cover;">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h3 class="card-title fw-bold text-primary mb-3">Skill Graph Platform - Neo4j Graph Database</h3>
+                                    
+                                    <div class="mb-4">
+                                        <h5 class="fw-bold text-danger d-flex align-items-center mb-2">
+                                            <i class="fas fa-exclamation-triangle me-2"></i>Problem Statement
+                                        </h5>
+                                        <p class="card-text ps-4">Traditional relational database structures failed to efficiently represent complex skill relationships, prerequisite chains, and career paths. Companies needed a better way to match candidates with job requirements, identify skill gaps, and visualize learning progression across multiple domains.</p>
+                                    </div>
+
+                                    <div class="mb-4">
+                                        <h5 class="fw-bold text-info d-flex align-items-center mb-2">
+                                            <i class="fas fa-lightbulb me-2"></i>Solution Approach
+                                        </h5>
+                                        <p class="card-text ps-4">Architected and built a graph database solution using Neo4j featuring:
+                                        <ul class="ps-4 mt-2">
+                                            <li>Graph data model representing 10000+ skills and 50000+ skill relationships</li>
+                                            <li>Cypher query optimization achieving sub-second response times for complex relationship queries</li>
+                                            <li>Java Spring Boot backend with REST API endpoints for skill queries and recommendations</li>
+                                            <li>Interactive frontend visualization using D3.js showing skill dependency trees</li>
+                                            <li>Advanced recommendation engine using PageRank algorithm to suggest next skills to learn</li>
+                                            <li>Implemented role-based queries to find optimal career progression paths</li>
+                                        </ul></p>
+                                    </div>
+
+                                    <div class="mb-4">
+                                        <h5 class="fw-bold text-success d-flex align-items-center mb-2">
+                                            <i class="fas fa-trophy me-2"></i>Impact & Metrics
+                                        </h5>
+                                        <p class="card-text ps-4">
+                                            <strong>Performance:</strong> Queries execute in <300ms for complex 5-level deep relationship searches<br>
+                                            <strong>Accuracy:</strong> 94% precision in skill recommendation engine with A/B testing validation<br>
+                                            <strong>Scale:</strong> Successfully handles 10000 concurrent queries during peak usage<br>
+                                            <strong>Business Impact:</strong> Reduced recruitment time by 40% through improved skill matching
+                                        </p>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <span class="badge bg-success me-2">Neo4j</span>
+                                        <span class="badge bg-info me-2">Java Spring Boot</span>
+                                        <span class="badge bg-warning me-2">REST API</span>
+                                        <span class="badge bg-secondary me-2">D3.js</span>
+                                        <span class="badge bg-dark">Redis Cache</span>
+                                    </div>
+
+                                    <a href="#" class="btn btn-outline-primary mt-3">View on GitHub <i class="fas fa-external-link-alt ms-2"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: Microservices E-commerce Backend -->
+                <div class="col-lg-12 mb-5">
+                    <div class="card border-0 shadow-lg project-card h-100">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="https://via.placeholder.com/400x300?text=E-Commerce+Backend" class="img-fluid rounded-start h-100 object-cover" alt="E-commerce Backend" style="object-fit: cover;">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h3 class="card-title fw-bold text-primary mb-3">Scalable Microservices E-commerce Backend Architecture</h3>
+                                    
+                                    <div class="mb-4">
+                                        <h5 class="fw-bold text-danger d-flex align-items-center mb-2">
+                                            <i class="fas fa-exclamation-triangle me-2"></i>Problem Statement
+                                        </h5>
+                                        <p class="card-text ps-4">Legacy monolithic e-commerce platform suffered from 40% request timeout errors during peak traffic, inability to scale individual components, and tight coupling making it difficult to deploy independent service updates. System was crashing during flash sales affecting revenue.</p>
+                                    </div>
+
+                                    <div class="mb-4">
+                                        <h5 class="fw-bold text-info d-flex align-items-center mb-2">
+                                            <i class="fas fa-lightbulb me-2"></i>Solution Approach
+                                        </h5>
+                                        <p class="card-text ps-4">Designed and implemented a complete microservices architecture refactoring:
+                                        <ul class="ps-4 mt-2">
+                                            <li>Decomposed monolith into 8 independent microservices: User Service, Product Service, Order Service, Payment Service, Inventory Service, Notification Service, Review Service, Analytics Service</li>
+                                            <li>Implemented message-driven architecture using RabbitMQ and Apache Kafka for asynchronous communication</li>
+                                            <li>Used PostgreSQL for transactional data and MongoDB for denormalized reporting databases</li>
+                                            <li>Implemented distributed caching with Redis achieving 95% cache hit ratio</li>
+                                            <li>Set up API Gateway with Kong for rate limiting, authentication, and request routing</li>
+                                            <li>Deployed services on Docker containers with Kubernetes orchestration for auto-scaling</li>
+                                            <li>Implemented circuit breaker pattern to prevent cascade failures</li>
+                                        </ul></p>
+                                    </div>
+
+                                    <div class="mb-4">
+                                        <h5 class="fw-bold text-success d-flex align-items-center mb-2">
+                                            <i class="fas fa-trophy me-2"></i>Impact & Metrics
+                                        </h5>
+                                        <p class="card-text ps-4">
+                                            <strong>Reliability:</strong> Reduced error rates from 40% to 0.2% during peak traffic<br>
+                                            <strong>Scalability:</strong> System now handles 50x traffic spike automatically with Kubernetes auto-scaling<br>
+                                            <strong>Performance:</strong> Average API response time improved from 800ms to 120ms<br>
+                                            <strong>Deployment:</strong> Reduced deployment time from 6 hours to 15 minutes with rolling updates<br>
+                                            <strong>Revenue:</strong> Enabled 3x increase in transaction capacity without infrastructure cost increase
+                                        </p>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <span class="badge bg-success me-2">Java</span>
+                                        <span class="badge bg-info me-2">Spring Boot Microservices</span>
+                                        <span class="badge bg-warning me-2">PostgreSQL/MongoDB</span>
+                                        <span class="badge bg-secondary me-2">Kafka/RabbitMQ</span>
+                                        <span class="badge bg-dark">Kubernetes Docker</span>
+                                    </div>
+
+                                    <a href="#" class="btn btn-outline-primary mt-3">View on GitHub <i class="fas fa-external-link-alt ms-2"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4: Real-time Analytics Pipeline -->
+                <div class="col-lg-12 mb-5">
+                    <div class="card border-0 shadow-lg project-card h-100">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="https://via.placeholder.com/400x300?text=Analytics+Pipeline" class="img-fluid rounded-start h-100 object-cover" alt="Analytics Pipeline" style="object-fit: cover;">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h3 class="card-title fw-bold text-primary mb-3">Real-time Analytics Data Pipeline for SaaS Platform</h3>
+                                    
+                                    <div class="mb-4">
+                                        <h5 class="fw-bold text-danger d-flex align-items-center mb-2">
+                                            <i class="fas fa-exclamation-triangle me-2"></i>Problem Statement
+                                        </h5>
+                                        <p class="card-text ps-4">SaaS analytics platform processed data with 6-hour latency, making real-time dashboards impossible. Batch processing pipeline couldn't handle growing data volume efficiently, leading to system overload and inability to provide customers with actionable insights.</p>
+                                    </div>
+
+                                    <div class="mb-4">
+                                        <h5 class="fw-bold text-info d-flex align-items-center mb-2">
+                                            <i class="fas fa-lightbulb me-2"></i>Solution Approach
+                                        </h5>
+                                        <p class="card-text ps-4">Built a streaming analytics pipeline using Apache Kafka and Python:
+                                        <ul class="ps-4 mt-2">
+                                            <li>Implemented event streaming architecture capturing 100,000+ events per second</li>
+                                            <li>Kafka topics for different data types (user events, system metrics, transactions) with 3x replication</li>
+                                            <li>Real-time stream processing using Apache Spark Streaming for aggregations and anomaly detection</li>
+                                            <li>Processed events within 2-5 second latency using Scala and PySpark</li>
+                                            <li>Stored real-time metrics in InfluxDB time-series database for fast queries</li>
+                                            <li>Built Python backend service consuming Kafka topics and executing complex transformations</li>
+                                            <li>Implemented monitoring dashboards using Grafana showing live metrics</li>
+                                        </ul></p>
+                                    </div>
+
+                                    <div class="mb-4">
+                                        <h5 class="fw-bold text-success d-flex align-items-center mb-2">
+                                            <i class="fas fa-trophy me-2"></i>Impact & Metrics
+                                        </h5>
+                                        <p class="card-text ps-4">
+                                            <strong>Latency Reduction:</strong> Reduced data latency from 6 hours to <5 seconds<br>
+                                            <strong>Throughput:</strong> Increased processing capacity 30x to handle 100K+ events/sec with 99.9% data accuracy<br>
+                                            <strong>Cost Optimization:</strong> Reduced infrastructure costs 25% through efficient resource utilization<br>
+                                            <strong>Feature Enablement:</strong> Enabled 5 new real-time analytics features directly from pipeline
+                                        </p>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <span class="badge bg-success me-2">Python</span>
+                                        <span class="badge bg-info me-2">Apache Kafka</span>
+                                        <span class="badge bg-warning me-2">Spark Streaming</span>
+                                        <span class="badge bg-secondary me-2">InfluxDB</span>
+                                        <span class="badge bg-dark">Grafana Monitoring</span>
+                                    </div>
+
+                                    <a href="#" class="btn btn-outline-primary mt-3">View on GitHub <i class="fas fa-external-link-alt ms-2"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5: High-Performance Cache Layer -->
+                <div class="col-lg-12 mb-5">
+                    <div class="card border-0 shadow-lg project-card h-100">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="https://via.placeholder.com/400x300?text=Cache+Layer" class="img-fluid rounded-start h-100 object-cover" alt="Cache Layer" style="object-fit: cover;">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h3 class="card-title fw-bold text-primary mb-3">Distributed Cache Architecture with Redis Clustering</h3>
+                                    
+                                    <div class="mb-4">
+                                        <h5 class="fw-bold text-danger d-flex align-items-center mb-2">
+                                            <i class="fas fa-exclamation-triangle me-2"></i>Problem Statement
+                                        </h5>
+                                        <p class="card-text ps-4">Database queries were becoming the bottleneck with 30% of requests hitting database for frequently accessed data. Single Redis instance became a single point of failure, causing 4-hour outages. Cache invalidation strategy resulted in stale data leading to customer complaints.</p>
+                                    </div>
+
+                                    <div class="mb-4">
+                                        <h5 class="fw-bold text-info d-flex align-items-center mb-2">
+                                            <i class="fas fa-lightbulb me-2"></i>Solution Approach
+                                        </h5>
+                                        <p class="card-text ps-4">Implemented enterprise-grade Redis clustering solution:
+                                        <ul class="ps-4 mt-2">
+                                            <li>Deployed Redis Cluster with 6 nodes (3 master, 3 replica) ensuring high availability</li>
+                                            <li>Implemented consistent hashing for distributed key distribution</li>
+                                            <li>Built intelligent cache-aside pattern with automatic TTL management</li>
+                                            <li>Developed event-driven cache invalidation using pub/sub messaging</li>
+                                            <li>Created monitoring system to track cache hit/miss ratios and memory usage</li>
+                                            <li>Implemented cache warming during deployment to reduce cold start latency</li>
+                                            <li>Set up failover mechanism with automatic replica promotion (< 1 second RTO)</li>
+                                        </ul></p>
+                                    </div>
+
+                                    <div class="mb-4">
+                                        <h5 class="fw-bold text-success d-flex align-items-center mb-2">
+                                            <i class="fas fa-trophy me-2"></i>Impact & Metrics
+                                        </h5>
+                                        <p class="card-text ps-4">
+                                            <strong>Cache Performance:</strong> Achieved 97% cache hit ratio reducing database load by 95%<br>
+                                            <strong>Latency:</strong> Reduced average API response time from 800ms to 45ms<br>
+                                            <strong>Reliability:</strong> Improved availability to 99.99% with zero unplanned downtime<br>
+                                            <strong>Scalability:</strong> System capacity increased 5x with same infrastructure cost
+                                        </p>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <span class="badge bg-success me-2">Redis Cluster</span>
+                                        <span class="badge bg-info me-2">Java Client</span>
+                                        <span class="badge bg-warning me-2">Distributed Systems</span>
+                                        <span class="badge bg-secondary me-2">High Availability</span>
+                                        <span class="badge bg-dark">Performance Optimization</span>
+                                    </div>
+
+                                    <a href="#" class="btn btn-outline-primary mt-3">View on GitHub <i class="fas fa-external-link-alt ms-2"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section bg-primary text-white py-5">
+        <div class="container text-center">
+            <h2 class="mb-4 fw-bold">Interested in working together?</h2>
+            <p class="lead mb-4">Let's discuss how I can solve your technical challenges</p>
+            <a href="contact.html" class="btn btn-light btn-lg">
+                <i class="fas fa-envelope me-2"></i>Get In Touch
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <h5 class="fw-bold mb-3">About</h5>
+                    <p>Backend-focused developer passionate about solving complex problems and building scalable systems with cutting-edge technologies.</p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/dhamarukanath-jagarlamudi-0b5418384" target="_blank" class="text-white me-3" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/Jag847" target="_blank" class="text-white me-3" title="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" class="text-white" title="Twitter"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="fw-bold mb-3">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white text-decoration-none">Home</a></li>
+                        <li><a href="about.html" class="text-white text-decoration-none">About</a></li>
+                        <li><a href="skills.html" class="text-white text-decoration-none">Skills</a></li>
+                        <li><a href="assets/resume.pdf" class="text-white text-decoration-none" download>Resume</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="fw-bold mb-3">Contact</h5>
+                    <p>Email: <a href="mailto:dhamarukanath@email.com" class="text-white text-decoration-none">dhamarukanath@email.com</a></p>
+                    <p>Based in India | Available for remote opportunities</p>
+                </div>
+            </div>
+            <hr class="my-3">
+            <div class="text-center">
+                <p class="mb-0">&copy; 2026 Professional Portfolio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
